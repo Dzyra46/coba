@@ -10,16 +10,17 @@
     "contributors": [],
     "diagrams": [
       {
-        "id": 1,
-        "title": "New STRIDE diagram",
+        "id": 2,
+        "title": "Level 0",
         "diagramType": "STRIDE",
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.5.0",
-        "cells": []
+        "cells": [],
+        "description": "Context Diagram"
       }
     ],
-    "diagramTop": 2,
+    "diagramTop": 3,
     "reviewer": "Security Team",
     "threatTop": 0
   }
