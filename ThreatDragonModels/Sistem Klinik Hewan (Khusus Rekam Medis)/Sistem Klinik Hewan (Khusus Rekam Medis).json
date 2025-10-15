@@ -1,0 +1,16 @@
+{
+  "version": "2.5.0",
+  "summary": {
+    "title": "Sistem Klinik Hewan (Khusus Rekam Medis)",
+    "owner": "Abil",
+    "description": "Web-based veterinary clinic management system with blockchain integration for medical record integrity verification.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [],
+    "diagramTop": 1,
+    "reviewer": "Security Team",
+    "threatTop": 0
+  }
+}
