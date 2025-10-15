@@ -16,7 +16,1033 @@
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.5.0",
-        "cells": [],
+        "cells": [
+          {
+            "position": {
+              "x": 261.25,
+              "y": 294
+            },
+            "size": {
+              "width": 170,
+              "height": 80
+            },
+            "attrs": {
+              "label": {
+                "text": "Internal System"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "dfee7a1c-ccee-4c0c-9fca-0a33ab73b57e",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Internal System",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": -30,
+              "y": 110
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Admin Klinik"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "5e3e3496-29fb-4d2c-ba9a-21fc284671f0"
+                },
+                {
+                  "group": "right",
+                  "id": "ee47043d-a337-4cb3-8e73-e239ca6f4943"
+                },
+                {
+                  "group": "bottom",
+                  "id": "4cdb4325-be25-4605-9357-c9b3c5384f2f"
+                },
+                {
+                  "group": "left",
+                  "id": "b75038aa-71d9-40e1-944f-de96952a68c3"
+                }
+              ]
+            },
+            "id": "e36d6e58-0e16-459c-a48e-fc01929e284f",
+            "zIndex": 1,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Admin Klinik",
+              "description": "Administrator yang mengelola data master dan monitoring sistem",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": true,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 290,
+              "y": 40
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Dokter"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "5e3e3496-29fb-4d2c-ba9a-21fc284671f0"
+                },
+                {
+                  "group": "right",
+                  "id": "ee47043d-a337-4cb3-8e73-e239ca6f4943"
+                },
+                {
+                  "group": "bottom",
+                  "id": "4cdb4325-be25-4605-9357-c9b3c5384f2f"
+                },
+                {
+                  "group": "left",
+                  "id": "b75038aa-71d9-40e1-944f-de96952a68c3"
+                }
+              ]
+            },
+            "id": "5c60776b-deb9-463e-b679-fc80fa8c83bb",
+            "zIndex": 2,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Dokter",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": true,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 660,
+              "y": 110
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Pemilik Hewan"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "5e3e3496-29fb-4d2c-ba9a-21fc284671f0"
+                },
+                {
+                  "group": "right",
+                  "id": "ee47043d-a337-4cb3-8e73-e239ca6f4943"
+                },
+                {
+                  "group": "bottom",
+                  "id": "4cdb4325-be25-4605-9357-c9b3c5384f2f"
+                },
+                {
+                  "group": "left",
+                  "id": "b75038aa-71d9-40e1-944f-de96952a68c3"
+                }
+              ]
+            },
+            "id": "8f165c90-bebc-4bcd-974b-f9fac6df4e82",
+            "zIndex": 3,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Pemilik Hewan",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": true,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 290,
+              "y": 440
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Blockchain System"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "5e3e3496-29fb-4d2c-ba9a-21fc284671f0"
+                },
+                {
+                  "group": "right",
+                  "id": "ee47043d-a337-4cb3-8e73-e239ca6f4943"
+                },
+                {
+                  "group": "bottom",
+                  "id": "4cdb4325-be25-4605-9357-c9b3c5384f2f"
+                },
+                {
+                  "group": "left",
+                  "id": "b75038aa-71d9-40e1-944f-de96952a68c3"
+                }
+              ]
+            },
+            "id": "3546e03c-457f-492b-8c20-78cb5733379d",
+            "zIndex": 4,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Blockchain System",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": true,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 316.25,
+              "y": 304
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Sistem Manajemen Klinik Hewan"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "6495597a-9982-496a-a402-b8d457af64f3"
+                },
+                {
+                  "group": "right",
+                  "id": "eb4ee8d3-5ee0-47de-b9a7-b736aac86a39"
+                },
+                {
+                  "group": "bottom",
+                  "id": "c57d31c7-d580-4e5d-9f09-3963861c06bc"
+                },
+                {
+                  "group": "left",
+                  "id": "90f1db06-4a7e-4f72-9af7-61ed7a01c763"
+                }
+              ]
+            },
+            "id": "7097d0ff-8710-48de-9647-88016aac1bd1",
+            "zIndex": 5,
+            "data": {
+              "type": "tm.Process",
+              "name": "Sistem Manajemen Klinik Hewan",
+              "description": "Core application system yang mengelola data pasien, rekam medis, dan integrasi  dengan blockchain",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": true,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Akun & Pasien",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": false,
+              "protocol": "HTTPS/TLS 1.3",
+              "threats": []
+            },
+            "labels": [
+              "Data Akun & Pasien"
+            ],
+            "id": "90532d10-3f18-4b1d-a102-2e7bc626be05",
+            "source": {
+              "cell": "e36d6e58-0e16-459c-a48e-fc01929e284f",
+              "port": "4cdb4325-be25-4605-9357-c9b3c5384f2f"
+            },
+            "target": {
+              "cell": "7097d0ff-8710-48de-9647-88016aac1bd1",
+              "port": "6495597a-9982-496a-a402-b8d457af64f3"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Kartu QR & Status Validasi",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": false,
+              "protocol": "HTTPS/TLS 1.3",
+              "threats": []
+            },
+            "labels": [
+              "Kartu QR & Status Validasi"
+            ],
+            "id": "9ed33179-af4c-437b-a554-b87800277686",
+            "source": {
+              "cell": "7097d0ff-8710-48de-9647-88016aac1bd1",
+              "port": "90f1db06-4a7e-4f72-9af7-61ed7a01c763"
+            },
+            "target": {
+              "cell": "e36d6e58-0e16-459c-a48e-fc01929e284f",
+              "port": "4cdb4325-be25-4605-9357-c9b3c5384f2f"
+            },
+            "vertices": [
+              {
+                "x": 170,
+                "y": 310
+              },
+              {
+                "x": 30,
+                "y": 290
+              },
+              {
+                "x": 0,
+                "y": 240
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Rekam Medis",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": false,
+              "protocol": "HTTPS/TLS 1.3",
+              "threats": []
+            },
+            "labels": [
+              "Data Rekam Medis"
+            ],
+            "id": "e9920a49-09e2-435f-9873-2d6a7af5e2e9",
+            "source": {
+              "cell": "5c60776b-deb9-463e-b679-fc80fa8c83bb",
+              "port": "4cdb4325-be25-4605-9357-c9b3c5384f2f"
+            },
+            "target": {
+              "cell": "7097d0ff-8710-48de-9647-88016aac1bd1",
+              "port": "6495597a-9982-496a-a402-b8d457af64f3"
+            },
+            "vertices": [
+              {
+                "x": 270,
+                "y": 200
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "History Pasien",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": false,
+              "protocol": "HTTPS/TLS 1.3",
+              "threats": []
+            },
+            "labels": [
+              "History Pasien"
+            ],
+            "id": "dc2a7850-9f46-412e-b929-5d409e02651f",
+            "source": {
+              "cell": "7097d0ff-8710-48de-9647-88016aac1bd1",
+              "port": "6495597a-9982-496a-a402-b8d457af64f3"
+            },
+            "target": {
+              "cell": "5c60776b-deb9-463e-b679-fc80fa8c83bb",
+              "port": "4cdb4325-be25-4605-9357-c9b3c5384f2f"
+            },
+            "vertices": [
+              {
+                "x": 430,
+                "y": 190
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Riwayat Medis + PDF",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": false,
+              "protocol": "HTTPS/TLS 1.3",
+              "threats": []
+            },
+            "labels": [
+              "Riwayat Medis + PDF"
+            ],
+            "id": "a24d55d7-5f8b-40c1-8ecf-07b7ba5b5087",
+            "source": {
+              "cell": "7097d0ff-8710-48de-9647-88016aac1bd1",
+              "port": "eb4ee8d3-5ee0-47de-b9a7-b736aac86a39"
+            },
+            "target": {
+              "cell": "8f165c90-bebc-4bcd-974b-f9fac6df4e82",
+              "port": "4cdb4325-be25-4605-9357-c9b3c5384f2f"
+            },
+            "vertices": [
+              {
+                "x": 590,
+                "y": 200
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Scan QR & Request History",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": false,
+              "protocol": "HTTPS/TLS 1.3",
+              "threats": []
+            },
+            "labels": [
+              "Scan QR & Request History"
+            ],
+            "id": "51897c0d-4625-4dc3-a580-36162aa9c2a3",
+            "source": {
+              "cell": "8f165c90-bebc-4bcd-974b-f9fac6df4e82",
+              "port": "4cdb4325-be25-4605-9357-c9b3c5384f2f"
+            },
+            "target": {
+              "cell": "7097d0ff-8710-48de-9647-88016aac1bd1",
+              "port": "eb4ee8d3-5ee0-47de-b9a7-b736aac86a39"
+            },
+            "vertices": [
+              {
+                "x": 680,
+                "y": 310
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "TX Hash + Status",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": false,
+              "protocol": "HTTPS/TLS 1.3",
+              "threats": []
+            },
+            "labels": [
+              "TX Hash + Status"
+            ],
+            "id": "31683747-8f49-4010-85dd-fce539d70cc7",
+            "source": {
+              "cell": "3546e03c-457f-492b-8c20-78cb5733379d",
+              "port": "5e3e3496-29fb-4d2c-ba9a-21fc284671f0"
+            },
+            "target": {
+              "cell": "7097d0ff-8710-48de-9647-88016aac1bd1",
+              "port": "c57d31c7-d580-4e5d-9f09-3963861c06bc"
+            },
+            "vertices": [
+              {
+                "x": 270,
+                "y": 400
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Hash Rekam Medis",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": false,
+              "protocol": "HTTPS/TLS 1.3",
+              "threats": []
+            },
+            "labels": [
+              "Hash Rekam Medis"
+            ],
+            "id": "c95d6af3-7615-42aa-9568-f7dc6432af32",
+            "source": {
+              "cell": "7097d0ff-8710-48de-9647-88016aac1bd1",
+              "port": "c57d31c7-d580-4e5d-9f09-3963861c06bc"
+            },
+            "target": {
+              "cell": "3546e03c-457f-492b-8c20-78cb5733379d",
+              "port": "5e3e3496-29fb-4d2c-ba9a-21fc284671f0"
+            },
+            "vertices": [
+              {
+                "x": 440,
+                "y": 400
+              }
+            ]
+          }
+        ],
         "description": "Context Diagram"
       }
     ],
